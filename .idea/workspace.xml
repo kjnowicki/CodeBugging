@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="43c02256-c8c7-4889-8292-a5a84f9214cf" name="Changes" comment="test module with basic google tests">
+      <change afterPath="$PROJECT_DIR$/selenium-base/src/main/java/pl/kjnowicki/webdriver/CustomWebDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="module" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2TsJ1TxDvDzTS8q2P3AeiikwjOo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/Projects/Repos/CodeBugging/CodeBugging/selenium-base/src/test"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="base" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\Repos\CodeBugging\CodeBugging\selenium-base\src\test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\Repos\CodeBugging\CodeBugging\tests\src\test" />
+      <recent name="D:\Projects\Repos\CodeBugging\CodeBugging\tests\src\test\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.FrameworkTests.StaleElementHandlingTest">
+    <configuration name="FrameworkTests (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.kjnowicki.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.kjnowicki" />
+      <option name="MAIN_CLASS_NAME" value="pl.kjnowicki.FrameworkTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FrameworkTests (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.kjnowicki.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.kjnowicki" />
+      <option name="MAIN_CLASS_NAME" value="pl.kjnowicki.FrameworkTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FrameworkTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.kjnowicki.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.kjnowicki" />
+      <option name="MAIN_CLASS_NAME" value="pl.kjnowicki.FrameworkTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FrameworkTests.StaleElementHandlingTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.kjnowicki.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.kjnowicki" />
+      <option name="MAIN_CLASS_NAME" value="pl.kjnowicki.FrameworkTests" />
+      <option name="METHOD_NAME" value="StaleElementHandlingTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchTests.UrlSearchTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="google.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="google" />
+      <option name="MAIN_CLASS_NAME" value="google.SearchTests" />
+      <option name="METHOD_NAME" value="UrlSearchTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.FrameworkTests.StaleElementHandlingTest" />
+        <item itemvalue="TestNG.FrameworkTests (2)" />
+        <item itemvalue="TestNG.FrameworkTests (1)" />
+        <item itemvalue="TestNG.FrameworkTests" />
+        <item itemvalue="TestNG.SearchTests.UrlSearchTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="43c02256-c8c7-4889-8292-a5a84f9214cf" name="Changes" comment="" />
+      <created>1691825641502</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691825641502</updated>
+    </task>
+    <task id="LOCAL-00001" summary="selenium base for pages, components and tests">
+      <option name="closed" value="true" />
+      <created>1692649514118</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692649514118</updated>
+    </task>
+    <task id="LOCAL-00002" summary="health checks suite with framework tests for stale element handling">
+      <option name="closed" value="true" />
+      <created>1692649625239</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692649625239</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test module with basic google tests">
+      <option name="closed" value="true" />
+      <created>1692649640241</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1692649640241</updated>
+    </task>
+    <task id="LOCAL-00004" summary="test module with basic google tests">
+      <option name="closed" value="true" />
+      <created>1692649699751</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1692649699751</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="selenium base for pages, components and tests" />
+    <MESSAGE value="health checks suite with framework tests for stale element handling" />
+    <MESSAGE value="test module with basic google tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="test module with basic google tests" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/selenium-base/src/main/java/pl/kjnowicki/webdriver/CustomWebDriverDecorator.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
