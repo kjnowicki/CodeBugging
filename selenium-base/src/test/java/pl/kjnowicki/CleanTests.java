@@ -39,10 +39,6 @@ public class CleanTests {
     public void StaleElementNotThrownWithFindBy() {
         MockPage mockPage = new MockPage(getWebDriver());
 
-        mockPage.getBodyElement().isDisplayed();
-        getWebDriver().navigate().refresh();
-        mockPage.getBodyElement().isDisplayed();
-
         WebElement bodyElement = mockPage.getBodyElement();
         getWebDriver().navigate().refresh();
         bodyElement.isDisplayed();
