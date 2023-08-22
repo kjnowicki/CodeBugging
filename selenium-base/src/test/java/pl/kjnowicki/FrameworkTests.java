@@ -20,19 +20,27 @@ public class FrameworkTests extends TestGroupBase {
     public void StaleElementHandlingTest(By... bys) {
         WebElement webElement = getElementWithChainedBys(bys, getWebDriver());
         getWebDriver().navigate().refresh();
-        try {
-            webElement.isDisplayed();
-        } catch (NoSuchElementException ignored) {
-        } catch (StaleElementReferenceException staleElement) {
-            Assert.fail("Stale element was not handled");
-        }
+        webElement.isDisplayed();
+    }
+
+    @Test(dataProvider = "Disappearing stale elements")
+    public void DisappearingStaleElementHandlingTest(By... bys) {
+        final WebElement webElement = getElementWithChainedBys(bys, getWebDriver());
+        getWebDriver().navigate().refresh();
+        Assert.assertThrows(NoSuchElementException.class, webElement::isDisplayed);
     }
 
     @DataProvider(name = "Stale elements", parallel = true)
     public Object[][] staleElementsData() {
         return new Object[][]{
                 {By.cssSelector("body")},
-                {By.cssSelector("html"), By.xpath(".//body")},
+                {By.cssSelector("html"), By.xpath(".//body")}
+        };
+    }
+
+    @DataProvider(name = "Disappearing stale elements", parallel = true)
+    public Object[][] disappearingStaleElementsData() {
+        return new Object[][]{
                 {By.xpath("//html"), By.cssSelector("body"), By.cssSelector("test-tag")}
         };
     }
